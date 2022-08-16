@@ -7,7 +7,7 @@ const Iot = () => {
   const [historicalData, setHistoricaldata] = useState([]);
   useEffect(() => {
     const getTempHistoricalData = async () => {
-      const response = await axios.get("https://localhost:5000/api/iot");
+      const response = await axios.get("./api/iot");
       setValue(response.data.value);
       let dataRequest = response.data.historicalData.map((d) => {
         return {
