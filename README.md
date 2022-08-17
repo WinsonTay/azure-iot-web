@@ -11,3 +11,7 @@ communicating with PLC using Modbus TCP module to retrieve telemetry data and pu
 
 ### <ins>Deployment<ins>
 <img height="230px" src="./AzureIoTWeb/docs/deployment.png" alt="architecture"/>  
+
+1. Local PC to Push Docker image to ACR
+2. ACI Run the Docker Image.
+
